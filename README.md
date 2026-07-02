@@ -20,7 +20,7 @@ No YAML editing. No manual systemd setup. One command does it all.
 Run this on your remote Linux machine:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-Desktop-setup/main/setup-gateway.sh | bash
 ```
 
 That's it. It generates credentials, starts the server, and sets up a systemd service — all with sensible defaults.
@@ -42,7 +42,7 @@ bash setup-gateway.sh myuser MySecurePass123 9119
 ### Force reconfigure
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash -s -- --clean
+curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-Desktop-setup/main/setup-gateway.sh | bash -s -- --clean
 ```
 
 ## What It Does

@@ -7,7 +7,7 @@
 #   Non-interactive (recommended): bash setup-gateway.sh
 #   With custom values:            bash setup-gateway.sh admin MyPass123! 9119
 #   Interactive mode:              INTERACTIVE=1 bash setup-gateway.sh
-#   curl:                          curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash
+#   curl:                          curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-Desktop-setup/main/setup-gateway.sh | bash
 #
 # Requirements:
 #   - Hermes Agent installed (hermes command on PATH)

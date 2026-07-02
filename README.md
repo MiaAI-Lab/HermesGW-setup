@@ -17,9 +17,10 @@ No YAML editing. No manual systemd setup. One command does it all.
 
 ### 🚀 One-liner install (recommended)
 
-> ```bash
-> curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash
-> ```
+```bash
+# Run this on your remote Linux machine:
+curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash
+```
 
 That's it. It generates credentials, starts the server, and sets up a systemd service — all with sensible defaults.
 

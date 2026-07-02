@@ -18,12 +18,13 @@ No YAML editing. No manual systemd setup. One command does it all.
 ### 🚀 One-liner install (recommended)
 
 ```bash
+# Run this on your remote Linux machine:
 curl -fsSL https://raw.githubusercontent.com/MiaAI-Lab/HermesGW-setup/main/setup-gateway.sh | bash
 ```
 
 That's it. It generates credentials, starts the server, and sets up a systemd service — all with sensible defaults.
 
-> **Requires Hermes v0.18.0+.** If you get `'hermes serve' not available`, run `hermes update` first.
+> **⚠️ Requires Hermes v0.18.0+.** If you get `'hermes serve' not available`, run `hermes update` first.
 
 ### Or download and run locally
 
